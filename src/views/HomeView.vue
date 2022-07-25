@@ -10,13 +10,22 @@
       <h1 class="text-white font-['georgia'] text-large pt-10 drop-shadow-lg">
         Find a Provider You Can Trust
       </h1>
+      <div class="grid-rows-2 mt-5">
+        <GlobalButton text="Search Now" />
+        <GlobalButton text="Read More" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import GlobalButton from "@/components/GlobalButton.vue";
+
 export default {
-  name: "HomeView", //this is the name of the component
+  name: "app",
+  components: {
+    GlobalButton,
+  },
 };
 </script>
 <style></style>
