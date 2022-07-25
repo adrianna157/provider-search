@@ -1,7 +1,6 @@
 <template>
-  <div class="text-center">
-    <h1 class="mt-10">Home</h1>
-    <p>Here is some information. This is the home page</p>
+  <div>
+    <img class="object-left scale-75" src="@/assets/bachelor.jpeg" />
   </div>
 </template>
 

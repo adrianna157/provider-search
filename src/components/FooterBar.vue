@@ -1,5 +1,5 @@
 <template>
-  <footer class="absolute w-full bottom-0 bg-desert-purple pb-6">
+  <footer class="relative w-full bottom-0 bg-desert-purple pb-6">
     <div class="container mx-auto px-4">
       <hr class="mb-6 border-b-1 border-gray-700" />
       <div
