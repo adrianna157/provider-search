@@ -17,13 +17,13 @@ const config = {
 const firebaseApp = initializeApp(config);
 
 // set up database access
-const db = getFirestore(firebaseApp);
-const providerCollection = collection(db, "providers");
 
 // helper function to grab providers
 export const getUser = async () => {
+  const db = getFirestore(firebaseApp);
+  const providerCollection = collection(db, "providers");
   const provider = await getDocs(providerCollection);
-  return provider.exists ? provider.data() : null;
+  return provider;
 };
 /*
     use a composition hook that will return a ref to an array of
