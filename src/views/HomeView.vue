@@ -1,5 +1,5 @@
 <template>
-  <div class="columns-2 gap-0">
+  <div class="fixed columns-2 gap-0">
     <img
       class="relative h-large w-large top-0 drop-shadow-lg"
       src="@/assets/bachelor.jpeg"

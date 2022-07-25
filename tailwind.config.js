@@ -27,6 +27,10 @@ module.exports = {
         georgia: ["Georgia"],
         welcome: ["Arial"],
       },
+      backgroundImage: {
+        bachelor: "url('../assets/bachelor.jpeg')",
+        half: "50%",
+      },
     },
   },
   plugins: [],
