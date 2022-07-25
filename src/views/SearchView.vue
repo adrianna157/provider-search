@@ -6,5 +6,14 @@
       <h1>Find Providers</h1>
       <h1>Who Provide Quality Care To All</h1>
     </div>
+    <SearchBar />
   </div>
 </template>
+<script>
+import SearchBar from "@/components/SearchBar.vue";
+export default {
+  components: {
+    SearchBar,
+  },
+};
+</script>

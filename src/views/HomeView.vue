@@ -25,7 +25,6 @@
 import GlobalButton from "@/components/GlobalButton.vue";
 
 export default {
-  name: "app",
   components: {
     GlobalButton,
   },
