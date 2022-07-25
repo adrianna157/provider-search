@@ -23,21 +23,26 @@ export default {
         },
         {
           id: 1,
+          text: "Search Now",
+          page: "/search",
+        },
+        {
+          id: 2,
           text: "About",
           page: "/about",
         },
         {
-          id: 2,
+          id: 3,
           text: "Leadership",
           page: "/leadership",
         },
         {
-          id: 3,
+          id: 4,
           text: "Contact",
           page: "/contact",
         },
         {
-          id: 4,
+          id: 5,
           text: "Resources",
           page: "/resources",
         },
