@@ -1,7 +1,6 @@
 <template lang="js">
 
   <div>
-    <h2>Nav Bar</h2>
     <nav>
       <router-link class="spacing" v-for="routes in links"
       v-bind:key="routes.id"
@@ -24,7 +23,7 @@ export default {
         {
           id: 1,
           text: "About",
-          page: "/About",
+          page: "/about",
         },
         {
           id: 2,

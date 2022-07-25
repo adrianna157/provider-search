@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is a Home page</h1>
+  <div>
+    <h1>Home</h1>
+    <p>Here is some information. This is the home page</p>
   </div>
 </template>
+
+<script>
+export default {
+  name: "HomeView", //this is the name of the component
+};
+</script>
+<style></style>
