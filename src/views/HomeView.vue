@@ -1,6 +1,9 @@
 <template>
   <div class="columns-2 gap-0">
-    <img class="relative h-large w-large top-0" src="@/assets/bachelor.jpeg" />
+    <img
+      class="relative h-large w-large top-0 drop-shadow-lg"
+      src="@/assets/bachelor.jpeg"
+    />
     <div class="bg-desert-orange h-large text-center">
       <h1
         class="text-white text-welcome font-['welcome'] font-bold pt-36 drop-shadow-lg"

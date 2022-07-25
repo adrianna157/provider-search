@@ -1,13 +1,13 @@
 <template lang="js">
 
-  <div class='bg-desert-purple text-white text-right leading-10'>
+  <div class='bg-desert-purple text-white text-right leading-10 drop-shadow-lg'>
     <nav>
-      <router-link class="mr-5" v-for="routes in links"
+      <router-link class="mr-5 drop-shadow-lg" v-for="routes in links"
       v-bind:key="routes.id"
       :to="`${routes.page}`">{{routes.text}}</router-link>
     </nav>
   </div>
-  <hr class="border-b-1 border-gray-700" />
+  <hr class="border-b-1 border-gray-700 drop-shadow-lg" />
 
 </template>
 <script>
