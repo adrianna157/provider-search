@@ -5,6 +5,7 @@ import LeadershipView from "@/views/LeadershipView.vue";
 import ContactView from "@/views/ContactView.vue";
 import ResourceView from "@/views/ResourcesView.vue";
 import SearchView from "@/views/SearchView.vue";
+import SearchResult from "@/views/SearchResult.vue";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/search",
     name: "search",
     component: SearchView,
+  },
+  {
+    path: "/search-result",
+    name: "search-result",
+    component: SearchResult,
   },
 ];
 
