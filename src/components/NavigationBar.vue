@@ -7,7 +7,7 @@
       :to="`${routes.page}`">{{routes.text}}</router-link>
     </nav>
   </div>
-  <hr class="mb-6 border-b-1 border-gray-700" />
+  <hr class="border-b-1 border-gray-700" />
 
 </template>
 <script>
