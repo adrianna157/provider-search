@@ -1,16 +1,5 @@
 <template>
-  <div class="home">
-    <router-view />
-    <NavigationBar />
+  <div class="about">
+    <h1>This is a Home page</h1>
   </div>
 </template>
-
-<script>
-import NavigationBar from "@/components/NavigationBar.vue";
-export default {
-  name: "app",
-  components: {
-    NavigationBar,
-  },
-};
-</script>
