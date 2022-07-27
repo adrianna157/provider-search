@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <h1>About</h1>
-    <p>Here is some information. This is the about page</p>
+  <div class="fixed bg-bachelor bg-cover h-screen w-full">
+    <div
+      class="text-center text-white text-georgia font-['georgia'] text-large mt-28 ml-14 drop-shadow-lg"
+    >
+      <h1>About</h1>
+      <p>This is the about page</p>
+    </div>
   </div>
 </template>
 

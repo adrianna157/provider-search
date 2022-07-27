@@ -11,7 +11,7 @@ module.exports = {
         "2/3": "66.666667%",
       },
       height: {
-        large: "883.851px",
+        large: "960px",
       },
       width: {
         large: "960px",
