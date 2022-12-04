@@ -22,7 +22,9 @@ const firebaseApp = initializeApp(config);
 export const getUser = async () => {
   const db = getFirestore(firebaseApp);
   const providerCollection = collection(db, "providers");
-  const provider = await getDocs(providerCollection);
+  const provider = await (
+    await getDocs(providerCollection)
+  ).docs.map((doc) => doc.data());
   return provider;
 };
 /*
