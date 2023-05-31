@@ -1,5 +1,7 @@
 # Provider Search
 
+# Objective
+This is an application that assists local communities in searching for providers that meet their specific needs
 ## Project setup
 ```
 npm install
