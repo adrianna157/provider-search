@@ -1,4 +1,4 @@
-# provider-search
+# Provider Search
 
 ## Project setup
 ```
